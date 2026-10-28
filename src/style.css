@@ -161,9 +161,11 @@ body, html {
   z-index: 20;
   font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
-  white-space: pre-wrap;
+  white-space: normal;
   overflow-wrap: anywhere;
   max-width: min(480px, calc(100vw - 24px));
+  max-height: calc(100vh - 24px);
+  overflow: hidden;
 }
 
 /* Start / Pause Overlay */
